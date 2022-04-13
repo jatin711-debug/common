@@ -1,6 +1,6 @@
 {
   "name": "@johnny711/common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -8,8 +8,8 @@
     "build/**/*"
   ],
   "scripts": {
-    "clean":"del-cli ./build/*",
-    "build":"npm run clean && tsc"
+    "clean": "del-cli ./build/*",
+    "build": "npm run clean && tsc"
   },
   "keywords": [],
   "author": "",
